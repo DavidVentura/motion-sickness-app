@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Motion sickness</string>
+
+    <string name="motion_cues_channel_name">Motion cues overlay</string>
+    <string name="motion_cues_notification_title">Motion cues active</string>
+    <string name="motion_cues_notification_text">Drawing motion dots over other apps</string>
+    <string name="motion_cues_notification_stop">Stop</string>
+
+    <string name="main_title">Vehicle motion cues</string>
+    <string name="main_subtitle">Reduces motion sickness by showing dots that drift with the car\'s motion.</string>
+    <string name="main_grant_overlay">Grant draw-over-apps permission</string>
+    <string name="main_start">Start cues</string>
+    <string name="main_stop">Stop cues</string>
+</resources>
