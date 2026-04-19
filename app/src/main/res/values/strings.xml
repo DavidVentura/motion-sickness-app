@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Motion sickness</string>
+    <string name="app_name">Motion cues</string>
 
     <string name="motion_cues_channel_name">Motion cues overlay</string>
     <string name="motion_cues_notification_title">Motion cues active</string>

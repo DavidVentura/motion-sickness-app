@@ -1,5 +1,12 @@
-# Motion sickness app
+# Motion cues
 
-Works similarly to iOS vehicle motion cues, the idea is it will make you less motionsick if you use the phone on a vehicle.
+Motion cues is an Android app that shows an overlay while you use your phone in a car, bus, or train.
 
-Works fine on manual testing
+You need to activate the overlay yourself, it is not automatic.
+
+It works similarly to vehicle motion cues on iPhone and aims to reduce motion sickness by drawing dots that drift with the vehicle's motion.
+
+## Screenshots
+
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/main.png" alt="Main screen" width="300" />
+<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/dots.png" alt="Overlay dots screen" width="300" />
