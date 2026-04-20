@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 David Ventura
+# SPDX-License-Identifier: GPL-3.0-only
+
 # Preserve file names and line numbers for readable stack traces
 -keepattributes SourceFile,LineNumberTable
 

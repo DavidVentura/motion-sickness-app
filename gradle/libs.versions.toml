@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 David Ventura
+# SPDX-License-Identifier: GPL-3.0-only
+
 [versions]
 androidGradlePlugin = "9.0.1"
 androidxCore = "1.18.0"

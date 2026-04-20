@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# SPDX-FileCopyrightText: 2026 David Ventura
+# SPDX-License-Identifier: GPL-3.0-only
+
 set -euo pipefail
 
 if [ "$#" -ne 4 ]; then
