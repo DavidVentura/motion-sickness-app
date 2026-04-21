@@ -9,3 +9,9 @@ It works similarly to vehicle motion cues on iPhone and aims to reduce motion si
 ## Screenshots
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/main.png" alt="Main screen" width="300" /> <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/dots.png" alt="Overlay dots screen" width="300" />
+
+## License
+
+This project is licensed under `GPL-3.0-only`.
+
+See [LICENSE](LICENSE) for the full text.
