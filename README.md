@@ -12,6 +12,6 @@ It works similarly to vehicle motion cues on iPhone and aims to reduce motion si
 
 ## License
 
-This project is licensed under `GPL-3.0-only`.
+This project is licensed under [![GPL-3.0-only](https://img.shields.io/badge/License-GPL--3.0--only-blue.svg)](https://spdx.org/licenses/GPL-3.0-only.html)
 
 See [LICENSE](LICENSE) for the full text.
