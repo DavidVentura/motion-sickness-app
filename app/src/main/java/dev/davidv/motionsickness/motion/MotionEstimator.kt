@@ -190,9 +190,13 @@ class MotionEstimator(context: Context) {
     }
 
     fun start() {
-        sensorManager.registerListener(listener, linearAccel, SensorManager.SENSOR_DELAY_GAME)
-        sensorManager.registerListener(listener, rotationVector, SensorManager.SENSOR_DELAY_GAME)
-        sensorManager.registerListener(listener, gyroscope, SensorManager.SENSOR_DELAY_GAME)
+        // Delay sensor registration to ensure foreground state is fully granted,
+        // bypassing Android 12+ background sensor restrictions.
+        android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+            sensorManager.registerListener(listener, linearAccel, SensorManager.SENSOR_DELAY_GAME)
+            sensorManager.registerListener(listener, rotationVector, SensorManager.SENSOR_DELAY_GAME)
+            sensorManager.registerListener(listener, gyroscope, SensorManager.SENSOR_DELAY_GAME)
+        }, 500L)
     }
 
     fun stop() {
