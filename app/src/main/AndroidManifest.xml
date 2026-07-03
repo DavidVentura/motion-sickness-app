@@ -39,6 +39,16 @@
                 android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
                 android:value="motion-sickness-overlay-while-in-vehicle" />
         </service>
+        <service
+            android:name=".motion.MotionTileService"
+            android:exported="true"
+            android:label="Motion Cues"
+            android:icon="@drawable/ic_qs_motion"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
